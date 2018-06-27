@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="An Artisan Mexican Products Bakery in India and make our products with Full Nixtamalization method for the best experience. Further, we customized our products as per client preference and have products in various sizes, colours, thickness, salt content and other speciality products.">
     <meta name="author" content="">
 
     <title>Foodkrafterz</title>
@@ -42,13 +42,13 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item active px-lg-4">
+            <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
             </li>
-            <li class="nav-item px-lg-4">
+            <li class="nav-item active px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
             </li>
           </ul>
@@ -56,9 +56,48 @@
       </div>
     </nav>
 
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-5">
+                <span class="section-heading-upper">Come On In</span>
+                <span class="section-heading-lower">We're Open</span>
+              </h2>
+              <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Email:
+                  <span class="ml-auto">johndoe@gmail.com</span>
+                </li>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                  Phone(Raj Bhalla)
+                  <span class="ml-auto">0123456789</span>
+                </li>
+              </ul>
+              <p class="address mb-5">
+                <em>
+                  <strong>E-87,EPIP Site 5</strong>
+                  <br>
+                  Greater Noida,UP
+                </em>
+              </p>
+              <p class="mb-0">
+                <small>
+                  <em>Call Anytime</em>
+                </small>
+                <br>
+                (317) 585-8468
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="page-section about-heading">
       <div class="container">
-        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about2.jpg" alt="">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
@@ -67,8 +106,8 @@
                   <span class="section-heading-upper">Authentic Mexican Food,Tailored For You</span>
                   <span class="section-heading-lower">About Us</span>
                 </h2>
-                <p>Founded In 200x,we are a mexican products bakery and use authentic production methods to give the best experience to our consumers,so they can enjoy the mexican cuisine the way it should be enjoyed.</p>
-                <p class="mb-0">We believe in working and cooperating with our consumers and give them the best experience they can get, and we can tailor our products to the needs of our consumers.</p>
+                <p>Founded In 200x,we are a mexican products bakery and use authentic production methods to give the best experience to our consumers,so they can enjoy the mexican cuisine the way it should be enjoyed..</p>
+                <p class="mb-0">We believe in working and cooperating with our consumers and give them the best experience they can get, and we can tailor our products to the needs of our consumers..</p>
               </div>
             </div>
           </div>
@@ -78,7 +117,7 @@
 
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-        <p class="m-0 small">Copyright &copy; FoodKrafterz 2018</p>
+        <p class="m-0 small">Copyright &copy; Foodkrafterz 2018</p>
       </div>
     </footer>
 
@@ -87,5 +126,10 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
+
+  <!-- Script to highlight the active date in the hours list -->
+  <script>
+    $('.list-hours li').eq(new Date().getDay()).addClass('today');
+  </script>
 
 </html>
